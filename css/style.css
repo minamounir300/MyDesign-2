@@ -1,0 +1,533 @@
+body {
+    padding-top: 70px;
+    font-family: 'Mulish', sans-serif;
+    overflow: hidden;
+    /*This is for Loading-overlay */
+}
+
+.option-box {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    z-index: 9999;
+}
+
+.option-box .color-option {
+    float: left;
+    background-color: #333;
+    color: #FFF;
+    padding: 10px;
+    width: 200px;
+    display: none;
+}
+
+.option-box .color-option h4 {
+    padding-top: 12px;
+}
+
+.option-box .color-option ul li {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.option-box .cog-check {
+    padding: 5px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+nav {
+    font-weight: bold;
+}
+
+nav .navbar-brand {
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+
+.carousel .d-block {
+    height: 600px;
+}
+
+.carousel-caption {
+    background: rgba(3, 3, 3, 0.3);
+    border-radius: 8px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.btn-primary,
+.btn-danger {
+    margin-bottom: 15px;
+}
+
+.carousel-indicators li {
+    height: 6px;
+}
+
+.about {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.about .lead {
+    color: #888;
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+.about h1 {
+    font-weight: bold;
+}
+
+.features {
+    background-color: #EEE;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.features h2 {
+    margin-bottom: 50px;
+}
+
+.features .feat {
+    margin-bottom: 30px;
+}
+
+.features .feat p {
+    line-height: 2em;
+}
+
+.features .feat svg {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.testimonials {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.testimonials h2 {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.testimonials .carousel-inner {
+    min-height: 175px;
+}
+
+.testimonials .lead {
+    line-height: 2em;
+}
+
+.testimonials span {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.testimonials .carousel-indicators {
+    position: static;
+}
+
+.testimonials .carousel-indicators li {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    text-indent: 0;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.testimonials .carousel-indicators li img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.price-table {
+    background-color: #EEE;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.price-table h2 {
+    padding-bottom: 40px;
+    font-weight: bold;
+}
+
+.price-table .price-box {
+    background-color: #FFF;
+    padding: 10px;
+    border: 1px solid #DDD;
+    margin-bottom: 15px;
+}
+
+.price-table .price-box h2 {
+    margin: 5px 0 15px;
+}
+
+.price-table .price-box p {
+    font-size: 35px;
+    font-weight: bold;
+    color: #666;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    background-color: #fdf6f6;
+    border: 3px solid #FFF;
+}
+
+.price-table .price-box:hover p {
+    transform: scale(1.1, 1.1) rotate(360deg);
+    -moz-transform: scale(1.1, 1.1) rotate(360deg);
+    -webkit-transform: scale(1.1, 1.1) rotate(360deg);
+    -o-transform: scale(1.1, 1.1) rotate(360deg);
+    border: 3px solid #DFDFDF;
+}
+
+.price-table .price-box ul {
+    line-height: 200%;
+    font-size: 18px;
+}
+
+.price-table .price-box a {
+    margin-bottom: 15px;
+}
+
+.our-team {
+    background: url(../images/img\ 09.png) no-repeat center center fixed;
+    min-height: 600px;
+}
+
+.our-team .team {
+    background-color: rgba(2, 2, 2, 0.5);
+    color: #FFF;
+    min-height: 600px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.our-team .team h2 {
+    margin-bottom: 60px;
+}
+
+.our-team .team .person {
+    margin-bottom: 40px;
+}
+
+.our-team .team .person img {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 25px;
+}
+
+.fab {
+    font-size: 22px;
+    padding: 3px;
+    cursor: pointer;
+    transition: transform .2s ease;
+}
+
+.fab:hover {
+    transform: scale(1.3, 1.3);
+}
+
+.subscribe {
+    padding-top: 40px;
+    padding-bottom: 70px;
+    background-color: #EEE;
+}
+
+.subscribe h2 {
+    color: #888;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.subscribe p {
+    margin-bottom: 30px;
+}
+
+.subscribe .form-control {
+    border-radius: 0;
+    margin-right: -5px;
+    width: 300px;
+}
+
+.subscribe button {
+    border-radius: 0;
+    margin-bottom: 0;
+    height: 48px;
+}
+
+.subscribe form button .far {
+    padding-right: 5px;
+}
+
+.statistics {
+    background: url(../images/img\ 14.jpg) no-repeat center center fixed;
+    min-height: 300px;
+}
+
+.statistics .data {
+    background-color: rgba(2, 2, 2, 0.5);
+    color: #FFF;
+    min-height: 300px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.statistics .data h2 {
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.statistics .data .stats {
+    color: rgba(221, 221, 221, 0.808);
+    margin-bottom: 50px;
+}
+
+.statistics .data .stats:hover {
+    color: #FFF;
+}
+
+.statistics .data .stats p {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.statistics .data .stats span {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.our-skills {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.our-skills h2 {
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.our-skills h3 {
+    font-weight: bold;
+}
+
+.our-skills .progress {
+    margin-bottom: 20px;
+    height: 46px;
+}
+
+.our-skills .progress .progress-bar {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 10px;
+}
+
+.contact-us {
+    background: url(../images/img\ 15.jpg) no-repeat center center fixed;
+    min-height: 300px;
+}
+
+.contact-us .fields {
+    background-color: rgba(2, 2, 2, 0.7);
+    color: #FFF;
+    min-height: 300px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.contact-us .fields h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.contact-us .fields p {
+    margin-bottom: 40px;
+}
+
+.contact-us .fields textarea {
+    height: 112px;
+}
+
+.contact-us .fields form .btn-danger {
+    margin-top: 17px;
+}
+
+.our-clients {
+    background-color: #EEE;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.our-clients img {
+    max-width: 130px;
+    max-height: 40px;
+    opacity: 0.4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.our-clients img:hover {
+    opacity: 1;
+}
+
+.footer {
+    background-color: #222;
+    color: #AAA;
+    padding-top: 20px;
+}
+
+.footer h3 {
+    letter-spacing: 2px;
+    margin: 20px 0 30px;
+}
+
+.footer .three-columns {
+    overflow: hidden;
+}
+
+.footer .three-columns li {
+    width: 33.333%;
+    float: left;
+    padding: 20px 0;
+}
+
+.footer .social-list {
+    overflow: hidden;
+}
+
+.footer .social-list li {
+    float: left;
+    margin-right: 10px;
+    opacity: 0.6;
+}
+
+.footer .social-list li:hover {
+    opacity: 1;
+}
+
+.footer a {
+    color: #AAA;
+}
+
+.footer a:hover {
+    color: #FFF;
+}
+
+.footer .img-thumbnail {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid #444;
+    margin: 5px;
+}
+
+.footer .copyright {
+    background-color: #333;
+    color: #AAA;
+    padding: 20px 0;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.loading-overlay {
+    background-color: rgb(44, 41, 41);
+    color: #FFF;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+}
+
+.spinner {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(252, 252, 252);
+    margin: 100px auto;
+    -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+    animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-rotateplane {
+    0% {
+        -webkit-transform: perspective(120px)
+    }
+    50% {
+        -webkit-transform: perspective(120px) rotateY(180deg)
+    }
+    100% {
+        -webkit-transform: perspective(120px) rotateY(180deg) rotateX(180deg)
+    }
+}
+
+@keyframes sk-rotateplane {
+    0% {
+        transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+        -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg)
+    }
+    50% {
+        transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+        -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg)
+    }
+    100% {
+        transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+        -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    }
+    ;
+}
+
+#scroll-top {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99999;
+    cursor: pointer;
+    display: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+/* Gropping Styles */
+
+.our-team,
+.statistics,
+.contact-us {
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.testimonials .carousel-indicators li,
+.statistics .data .stats,
+.our-clients img,
+.footer .social-list li,
+.price-table .price-box p {
+    transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -webkit-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+}

@@ -1,0 +1,8 @@
+body {
+    direction: rtl;
+}
+
+
+/*
+After Change direction of body we make changes like float & margins & padding 
+*/

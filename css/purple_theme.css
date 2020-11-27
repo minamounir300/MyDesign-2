@@ -1,0 +1,69 @@
+.option-box .color-option ul li,
+.option-box .cog-check {
+    background-color: #e02499;
+}
+
+nav .navbar-brand span,
+.about h1,
+.features h2,
+.features .feat svg,
+.testimonials span,
+.about h1 span,
+.footer h3,
+.footer .copyright span {
+    color: #e02499;
+}
+
+.dropdown-toggle:focus {
+    border-bottom: 3px solid #e02499;
+}
+
+.option-box .color-option,
+.testimonials .carousel-indicators li.active {
+    border: 3px solid #e02499;
+}
+
+#scroll-top {
+    color: #FFF;
+    background-color: #e02499;
+    border: 1px solid #e02499;
+}
+
+.breadcrumb-holder {
+    background-color: #e9ecef;
+}
+
+.about-us h1 {
+    color: #e02499;
+}
+
+.about-features i {
+    color: #e02499;
+}
+
+.about-ceo {
+    background-color: #EEE;
+}
+
+.about-ceo h2 {
+    color: #e02499;
+}
+
+.about-ceo .btn-primary {
+    background-color: #e02499;
+    border-color: #e02499;
+    color: #FFF;
+}
+
+.about-ceo .btn-primary:hover {
+    background-color: #f057b5;
+    border-color: #f057b5;
+}
+
+.faq h1 {
+    color: #e02499;
+}
+
+.faq-questions .panel-heading a {
+    color: #e02499;
+}

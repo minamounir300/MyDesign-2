@@ -1,0 +1,22 @@
+@media (max-width: 576px) {
+    .subscribe {
+        padding-bottom: 40px;
+    }
+    .subscribe button {
+        margin-top: 10px;
+    }
+    .contact-us .fields {
+        padding-bottom: 40px;
+    }
+    .footer .social-list li {
+        margin-bottom: 12px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 1200px) {}
